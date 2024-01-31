@@ -2,11 +2,12 @@
 import {headerLogo} from '../assets/images';
 import {hamburger} from '../assets/icons';
 import { navLinks } from '../constants';
+import  ThemeButton  from "../buttons/ThemeButton";
 
 const Nav = () => {
   return (
-    <header className='padding-x py-8 absolute z-10 w-full'>
-        <nav className='flex justify-between items-center max-container'>
+    <header className='padding-x py-8 z-10 absolute w-full dark:bg-slate-500 dark:fixed dark:z-20 '>
+        <nav className='flex justify-between items-center max-container  '>
             <a href="/">
                 <img
                 src={headerLogo}
@@ -18,7 +19,7 @@ const Nav = () => {
             {navLinks.map((item)=>(
                 <li key={item.label} >
                     <a href={item.href}
-                    className='font-montserrat leading-normal text-lg text-slate-gray'>{item.label}
+                    className='font-montserrat leading-normal text-lg text-slate-gray dark:text-white'>{item.label}
                     </a>
                 </li>
             ))}
@@ -30,6 +31,7 @@ const Nav = () => {
                 width={25}
                 height={25}/>
             </div>
+            <ThemeButton/>
         </nav>
     </header>
   )

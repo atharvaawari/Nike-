@@ -16,7 +16,7 @@ const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImg}) => {
             alt="shoe Collection"
             width={127}
             height={103}
-            className="object-contain"
+            className="object-contain dark:mix-blend-multiply"
             />
         </div>
     </div>

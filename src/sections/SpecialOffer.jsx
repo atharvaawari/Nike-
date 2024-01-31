@@ -11,14 +11,14 @@ const SpecialOffer = () => {
       </div>
 
       <div className="flex flex-1 flex-col">
-        <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
+        <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg dark:text-white">
          <span className="text-coral-red">Special</span> Offer
         </h2>
 
-        <p className="mt-4 lg:max-w-lg info-text">
+        <p className="mt-4 lg:max-w-lg info-text dark:text-white">
         Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation, and a touch of elegance.
         </p>
-        <p className="mt-6 lg:max-w-lg info-text">
+        <p className="mt-6 lg:max-w-lg info-text dark:text-white">
         Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
