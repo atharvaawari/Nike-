@@ -6,7 +6,7 @@ import  ThemeButton  from "../buttons/ThemeButton";
 
 const Nav = () => {
   return (
-    <header className='padding-x py-8 z-10 absolute w-full dark:bg-slate-500 dark:fixed dark:z-20 '>
+    <header className='padding-x py-8 z-20 fixed w-full bg-white dark:bg-slate-500 '>
         <nav className='flex justify-between items-center max-container  '>
             <a href="/">
                 <img

@@ -24,7 +24,7 @@ function App() {
 
 return (
   <ThemProvider value={{themeMode, darkTheme, lightTheme}} >
-    <main className="relative dark:bg-gray-900" >
+    <main className="relative dark:bg-black" >
       <Nav />
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />

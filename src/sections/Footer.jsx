@@ -11,7 +11,7 @@ const Footer = () => {
             <img src={footerLogo} 
             width={150}
             height={46}
-            className='dark:bg-white dark:fill-black'
+            className=''
             />
           </a>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm dark:text-black'>Get shoes ready for the new term at your nearest nike store. Find Your perfect size in Store. Get Rewards</p>
@@ -52,12 +52,12 @@ const Footer = () => {
 
       <div className='flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center'>
                       <div className='flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer'>
-                        <i
+                        <img
                         src={copyrightSign} 
                         alt="copy right sign"
                         width={20}
                         height={20}
-                        className='rounded-full m-0 dark:text-black'p
+                        className='rounded-full m-0 dark:text-black'
                         />
                         <p className='dark:text-black'>copyright. All rights reserved.</p>
                       </div>
