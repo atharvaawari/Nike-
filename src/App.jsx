@@ -20,7 +20,7 @@ function App() {
   useEffect( ()=>{
     document.querySelector('html').classList.remove("light","dark")
     document.querySelector('html').classList.add(themeMode)
-  }, [themeMode] )
+  }, [themeMode])
 
 return (
   <ThemProvider value={{themeMode, darkTheme, lightTheme}} >
@@ -30,10 +30,10 @@ return (
         <Hero />
       </section>
       <section className="padding">
-        <PopularProducts />
+        <SuperQuality />
       </section>
       <section className="padding">
-        <SuperQuality />
+        <PopularProducts />
       </section>
       <section className="padding">
         <Services />
