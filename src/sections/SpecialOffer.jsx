@@ -12,7 +12,7 @@ const SpecialOffer = () => {
 
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg dark:text-white">
-         <span className="text-coral-red">Special</span> Offer
+         <span className="text-violet-600/80">Special</span> Offer
         </h2>
 
         <p className="mt-4 lg:max-w-lg info-text dark:text-white">

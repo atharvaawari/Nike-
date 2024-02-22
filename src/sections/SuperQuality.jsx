@@ -8,7 +8,7 @@ const SuperQuality = () => {
       className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg dark:text-white">
-          We Provide You <span className="text-coral-red">Super</span> <br /> <span className="text-coral-red">Quality</span> Shoes
+          We Provide You <span className="text-violet-600/80">Super</span> <br /> <span className="text-violet-600/80">Quality</span> Shoes
         </h2>
 
         <p className="mt-4 lg:max-w-lg info-text dark:text-white">
